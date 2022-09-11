@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>clockproject</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href="./clockproject.css">
+    <link rel="stylesheet" href="./clockproject.js">
+    <link rel="stylesheet" href="./clockproject2.html">
+    <link rel="stylesheet" href="./clockproject.html">
+</head>
+<body bgcolor="#3d087b">
+    <div class="main-container" style="margin-left: 8%;
+    margin-right: 8%;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: 2%;
+    margin-bottom: 4%;
+    position: relative;">                 
+    
+    
+        <div id="grid-container1" style="width: 45%;
+        height: 90vh;
+        display: grid;
+        grid-row-gap: 15px;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 20% 50% 10% 20%;">
+        <div class=" grid-item" id="clock-pic">
+           <img src="./clock_logo@2x.png">
+       </div>
+
+       
+           <div class="grid-item" id="left-second-container">
+            <div class="left-second-container-inner">
+                <div id="div1"><img src="./wake_up@2x.jpg"></div>
+                
+                <div class="left-second-container-option">
+                    <label style="font-size:25px;"> Set wake up time</label>
+
+                    <select id="wakeuptimeselector">
+                        <option value="1">8 AM - 9 AM</option>
+                        <option value="2">9 AM - 10 AM</option>
+                        <option value="3">10 AM - 11 AM</option>
+                        <option value="4">11 AM - 12 PM</option>
+                        
+                        
+                    </select>
+                </div>
+        
+            </div>
+            <div class="left-second-container-inner">
+                <div id="div1"> <img src="./lunch_time@2x.jpg"></div>
+                <label style="font-size:25px;"> Set lunch time</label>
+                <select id="lunchtimeselector">
+                     <option value="1">12 PM - 1 PM</option>
+                    <option value="2">1 PM - 2 PM</option>
+                    <option value="3">2 PM - 3 PM</option>
+                    <option value="1">3 PM - 4 PM</option>
+                    <option value="2">4 PM - 5 PM</option>
+                    <option value="3">5 PM - 6 PM</option>
+                </select>
+
+            </div>
+            
+
+
+            <div class="left-second-container-inner">
+                <div id="div1"><img src="./nap_time@2x.jpg"></div>
+                <label style="font-size:25px;"> Set Night time</label>
+                <select id="nighttimeselector">
+                        <option value="1">6 PM - 7 PM</option>
+                        <option value="2">7 PM - 8 PM</option>
+                        <option value="3">8 PM - 9 PM</option>
+                </select>
+            </div>
+
+        </div>
+        <div class="grid-item" id="set-time"> <a href="./clockproject4.html ">SET TIME !!</a></div>
+        
+    </div>
+
+
+
+
+<div class="grid-container2">
+
+    <div class="grid-item1" id="digital-clock">
+        
+        <div id="clock1">
+            <h2>Time</h2>
+        </div>
+        
+        <div id="clock2" style="background-color: rgb(239, 156, 170);">
+            <span id="Hours"> 00 </span>
+            <p>Hours</p>
+            <div></div>
+
+                
+            
+        </div>
+        <div id="clock2" style="background-color: rgb(239, 156, 170);">
+            <span id="Minutes"> 00</span>
+            <p >Minutes</p>
+            
+            <div id="clock2">
+               
+            </div>
+        </div>
+       <div id="clock2" style="background-color: rgb(239, 156, 170);">
+            <span id="Seconds"> 00 </span>
+            <p >Seconds</p>
+            
+        </div>
+        <div id="clock3"> 
+            <p id="pm">PM</p>
+        </div>
+
+
+        <div id="lb1">
+            
+        </div> 
+        <div id="lb2" style="background-color: rgb(239, 156, 170);">
+
+        
+             </div>
+    </div>
+    <div class="grid-item1" id="right-bottom-container">
+        
+        <div id="text-container" style="font-size:35PX;  text-align:center; ">
+            STOP YAWNING, GET SOME TEA.. ITS JUST EVENING!
+        </div>
+    </div>
+        <div class="grid-item2" id="right-bottom-container">
+
+        <div id="img-container">
+            <img id="image" src="./lunch_image.jpg">
+        </div>
+    </div>
+
+
+
+</div>
+
+</div>
+
+<script src="./clockproject.js">
+    
+</script>
+</body>
+</html>
